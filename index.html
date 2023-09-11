@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Interactive Rating Component</title>
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@100;400;700&display=swap" rel="stylesheet">
+    
+
+</head>
+<body>
+    <header></header>
+    <main class="wrapper">
+        <div class="container1">
+            <div class="star">
+                <img class="star_img" src="./images/icon-star.svg" alt="">
+            </div>
+            <div class="text">
+                <h1 class="title">How did we do?</h1>
+                <p class="para"> Please let us know how we did with your support request. 
+                    All feedback is appreciated to help us improve our offering!</p>
+            </div>
+            <div class="btn">
+                <button class="rating">1</button>
+                <button class="rating">2</button>
+                <button class="rating">3</button>
+                <button class="rating">4</button>
+                <button class="rating">5</button>
+              
+                
+            </div>
+         
+            <button type="submit" class="submitted" >S U B M I T</button>
+           
+        </div>
+
+        <!-- =================Rating End Here===================== -->
+        <div class="container2 hidden">
+           
+                <div class="thank">
+                    <img class="thankyou" src="./images/illustration-thank-you.svg" alt="">
+                </div>
+                    <div class="selected">
+                        <p id="select">You selected &nbsp;
+                            <span id="rating"></span>&nbsp;
+                            out of 5</p>
+                    </div>
+                    <div class="thank_title">
+                        <h1>
+                            Thank you!
+                        </h1>
+                        <p>
+                            We appreciate you taking the time to give a rating. If you ever need more support, 
+                            don't hesitate to get in touch!
+                        </p>
+                    </div>
+           
+      
+        </div>
+
+
+        <script src="index.js"></script>
+
+    </main>
+ 
+    <script src="index.js"></script>
+    <footer>
+        <div class="attribution ">
+            Challenge by
+            <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>
+            Coded By
+            <a href="https://github.com/KJabeen">KJabeen</a>
+        </div>
+    </footer>
+</body>
+
+</html>
